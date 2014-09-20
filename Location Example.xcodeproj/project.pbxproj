@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36F578FCD74E4933B46B3C31 /* libPods-Location Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC336CB08B941FCB3908145 /* libPods-Location Example.a */; };
 		6AD8F3C619AD104900FB466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8F3C519AD104900FB466A /* AppDelegate.swift */; };
 		6AD8F3C819AD104900FB466A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8F3C719AD104900FB466A /* ViewController.swift */; };
 		6AD8F3CB19AD104900FB466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8F3C919AD104900FB466A /* Main.storyboard */; };
 		6AD8F3CD19AD104900FB466A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8F3CC19AD104900FB466A /* Images.xcassets */; };
 		6AD8F3D919AD104A00FB466A /* Location_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8F3D819AD104A00FB466A /* Location_ExampleTests.swift */; };
 		6AD8F3E319AD162A00FB466A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD8F3E219AD162A00FB466A /* CoreLocation.framework */; };
+		C4AA0A8319C7B73200859C5A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA0A8219C7B73200859C5A /* MapKit.framework */; };
+		C4EA99C019C9086D00B6F21F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C459492A19C907D200B694B0 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +25,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6AD8F3BF19AD104900FB466A;
 			remoteInfo = "Location Example";
+		};
+		C459492919C907D200B694B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C459492419C907D200B694B0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		C459492B19C907D200B694B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C459492419C907D200B694B0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +53,10 @@
 		6AD8F3D719AD104A00FB466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AD8F3D819AD104A00FB466A /* Location_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_ExampleTests.swift; sourceTree = "<group>"; };
 		6AD8F3E219AD162A00FB466A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B4FCD4BF20904B9B8C20DD5A /* Pods-Location Example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location Example.xcconfig"; path = "Pods/Pods-Location Example.xcconfig"; sourceTree = "<group>"; };
+		C459492419C907D200B694B0 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		C4AA0A8219C7B73200859C5A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CFC336CB08B941FCB3908145 /* libPods-Location Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Location Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EA99C019C9086D00B6F21F /* Alamofire.framework in Frameworks */,
+				C4AA0A8319C7B73200859C5A /* MapKit.framework in Frameworks */,
 				6AD8F3E319AD162A00FB466A /* CoreLocation.framework in Frameworks */,
+				36F578FCD74E4933B46B3C31 /* libPods-Location Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,13 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5641FFC3D6FC4E65B09908FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC336CB08B941FCB3908145 /* libPods-Location Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6AD8F3B719AD104800FB466A = {
 			isa = PBXGroup;
 			children = (
+				C459492419C907D200B694B0 /* Alamofire.xcodeproj */,
+				C4AA0A8219C7B73200859C5A /* MapKit.framework */,
 				6AD8F3E219AD162A00FB466A /* CoreLocation.framework */,
 				6AD8F3C219AD104900FB466A /* Location Example */,
 				6AD8F3D519AD104A00FB466A /* Location ExampleTests */,
 				6AD8F3C119AD104900FB466A /* Products */,
+				B4FCD4BF20904B9B8C20DD5A /* Pods-Location Example.xcconfig */,
+				5641FFC3D6FC4E65B09908FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +149,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C459492519C907D200B694B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C459492A19C907D200B694B0 /* Alamofire.framework */,
+				C459492C19C907D200B694B0 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AD8F3DC19AD104A00FB466A /* Build configuration list for PBXNativeTarget "Location Example" */;
 			buildPhases = (
+				DD3B145EF35246A2A62E7146 /* Check Pods Manifest.lock */,
 				6AD8F3BC19AD104900FB466A /* Sources */,
 				6AD8F3BD19AD104900FB466A /* Frameworks */,
 				6AD8F3BE19AD104900FB466A /* Resources */,
+				E2DAA7FCB1DA4044B45E1BEA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +227,12 @@
 			mainGroup = 6AD8F3B719AD104800FB466A;
 			productRefGroup = 6AD8F3C119AD104900FB466A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C459492519C907D200B694B0 /* Products */;
+					ProjectRef = C459492419C907D200B694B0 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6AD8F3BF19AD104900FB466A /* Location Example */,
@@ -187,6 +240,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C459492A19C907D200B694B0 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = C459492919C907D200B694B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C459492C19C907D200B694B0 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = C459492B19C907D200B694B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6AD8F3BE19AD104900FB466A /* Resources */ = {
@@ -206,6 +276,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD3B145EF35246A2A62E7146 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DAA7FCB1DA4044B45E1BEA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Location Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AD8F3BC19AD104900FB466A /* Sources */ = {
@@ -326,23 +429,27 @@
 		};
 		6AD8F3DD19AD104A00FB466A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FCD4BF20904B9B8C20DD5A /* Pods-Location Example.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Location Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Location Example/bridge.h";
 			};
 			name = Debug;
 		};
 		6AD8F3DE19AD104A00FB466A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FCD4BF20904B9B8C20DD5A /* Pods-Location Example.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Location Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Location Example/bridge.h";
 			};
 			name = Release;
 		};
@@ -401,6 +508,7 @@
 				6AD8F3DE19AD104A00FB466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AD8F3DF19AD104A00FB466A /* Build configuration list for PBXNativeTarget "Location ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +517,7 @@
 				6AD8F3E119AD104A00FB466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

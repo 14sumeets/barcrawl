@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7BCA811-EE8E-4D72-B4E8-10A099271166</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Location Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>34E86A6CE7ED565FC8AA9D9FAA523527561B048A</key>
+		<string>https://github.com/14sumeets/barcrawl.git</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>https://github.com/Alamofire/Alamofire.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Location Example.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>34E86A6CE7ED565FC8AA9D9FAA523527561B048A</key>
+		<string>..</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../Alamofire</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/14sumeets/barcrawl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>34E86A6CE7ED565FC8AA9D9FAA523527561B048A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alamofire</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>34E86A6CE7ED565FC8AA9D9FAA523527561B048A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>barcrawl</string>
+		</dict>
+	</array>
+</dict>
+</plist>

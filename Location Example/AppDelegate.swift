@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         // Override point for customization after application launch.
         println("hello world")
+        
+        
+        //region.span
+        //var region: MKCoordinateRegion
+        //func setRegion(region: MKCoordinateRegion, animated: Bool)
         return true
     }
 
